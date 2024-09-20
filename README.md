@@ -1,16 +1,24 @@
-SignalR ile Sipariş Yönetimi
-Kullanılan Teknolojiler:
-AspNet Core 6.0
-Asp.Net Core Api
-SignalR
-Swagger
-Dto
-N Tier Architecture
-MSSQL
-Entity Framework
-Html Css Bootstrap
-JavaScript
-Ajax
+# SignalR ile Sipariş Yönetimi
+
+SignalR ile Sipariş Yönetimi uygulamamızda sitede kolayca rezervasyon yapılabilir, ürünler seçip sipariş verilebilir. Aynı zamanda, indirimli ürünler gibi avantajlardan da faydalanılabilir. Tüm bu işlemler, kullanıcı deneyimini en üst seviyede tutmak için gerçek zamanlı olarak güncellenir. 
+
+**Admin dashboard** tarafında ise site yönetimine dair tüm işlemler kontrol altına alınmıştır. Yönetici panelinde, ürünler ve siparişler üzerinde tam kontrol sağlanabilir; ekleme, güncelleme, silme gibi işlemler kolayca yapılabilir. Bu değişiklikler anlık olarak görünür, böylece yöneticilerin yaptığı her düzenleme sayfa yenileme işlemi yapmadan anında ekrana yansır. 
+
+SignalR ile sağlanan bu gerçek zamanlı takip, kullanıcıların ve yöneticilerin sürekli güncel bilgilerle çalışmasını sağlar.
+
+## Kullanılan Teknolojiler:
+- AspNet Core 6.0
+- Asp.Net Core Api
+- SignalR
+- Swagger
+- N-Tier Architecture
+- MSSQL
+- Entity Framework
+- HTML, CSS, Bootstrap
+- JavaScript
+- Ajax
+- AutoMapper
+
 
 ![2](https://github.com/user-attachments/assets/87525902-da08-486c-abc6-fc29fa9c23fc)
 ![3](https://github.com/user-attachments/assets/8ba177e8-58ec-46d1-a9f3-37e4489c458e)
