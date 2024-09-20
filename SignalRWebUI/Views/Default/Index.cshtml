@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/UILayout/Index.cshtml";
+}
+
+@await Component.InvokeAsync("DefaultSliderComponentPartial")
+@await Component.InvokeAsync("DefaultOfferComponentPartial")
+@await Component.InvokeAsync("DefaultOurMenuComponentPartial")
+@await Component.InvokeAsync("DefaultAboutComponentPartial")
+@await Html.PartialAsync("SendMessage.cshtml")
+@await Component.InvokeAsync("DefaultTestimonialComponentPartial")

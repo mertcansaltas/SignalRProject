@@ -1,0 +1,17 @@
+﻿using SignalR.EntityLayer.Entities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SignalR.BusinessLayer.Interfaces
+{
+    public interface INotificationService:IGenericService<Notification>
+    {
+        int TNotificationCountByStatusFalse();
+        List<Notification> TGetAllNotificationByFalse();
+		void TNotificationChangeToTrue(int id);
+		void TNotificationChangeToFalse(int id);
+	}
+}
